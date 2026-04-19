@@ -1,5 +1,10 @@
 # App Store Metadaten – Raumigo
 
+> **Wording-Leitlinie (wichtig!):** Raumigo ist ein **Assistenzwerkzeug** für eine **unverbindliche geometrische Einschätzung** – kein Garantie- oder Freigabesystem.
+> - Gut: „Einschätzung", „könnte passen", „geometrische Vorprüfung", „Hinweise zu möglichen Orientierungen".
+> - Zu vermeiden: „passt garantiert", „sicher", „optimal", „freigegeben", „berechnet zuverlässig".
+> - Gewicht, Schwerpunkt, Tragfähigkeit, Griffmöglichkeiten, Materialverhalten, Personeneinsatz sowie Verletzungs- und Sachschadenrisiken werden **nicht** bewertet.
+
 ---
 
 ## Deutsch (DE – Primärsprache)
@@ -8,52 +13,50 @@
 Raumigo
 
 ### Untertitel (max. 30 Zeichen)
-Passt es durch die Tür?
+Passt es wahrscheinlich?
 
 ### Promotional Text (max. 170 Zeichen)
-Finde heraus, ob dein Sofa, Schrank oder Kühlschrank durch Türen, Flure und Treppenhäuser passt – bevor du es trägst. 3D-Scan mit LiDAR, Berechnung in Sekunden.
+Unverbindliche Einschätzung: Könnte dein Sofa, Schrank oder Karton durch Türen, Flure, Treppenhäuser oder in deinen Kofferraum passen? LiDAR-Scan, Ergebnis in Sekunden.
 
 ### Beschreibung (max. 4000 Zeichen)
-Raumigo nutzt den LiDAR-Sensor deines iPhones, um Objekte und Transportwege dreidimensional zu erfassen – und berechnet, ob dein Gegenstand durch Türen, Flure, Treppenhäuser und andere Engstellen passt.
+Raumigo ist ein Assistenzwerkzeug für die geometrische Vorprüfung von Transporten. Die App nutzt LiDAR und Sensoren deines iPhones, um Objekte, Transportwege und Kofferräume dreidimensional zu erfassen – und liefert dir eine unverbindliche Einschätzung, ob dein Gegenstand geometrisch passen könnte.
 
 WARUM RAUMIGO?
-Wer kennt es nicht: Der neue Schrank steht vor der Wohnungstür und passt nicht durch. Das Sofa bleibt im Treppenhaus stecken. Raumigo hilft dir, solche Situationen zu vermeiden – schnell, unkompliziert und direkt mit deinem iPhone.
+Der neue Schrank steht vor der Wohnungstür – passt er? Das Sofa soll in den Kofferraum – oder doch nicht? Raumigo hilft dir, solche Situationen vorab abzuschätzen. Schnell, direkt am iPhone, ohne Zollstock und Bauch­gefühl.
 
 SO FUNKTIONIERT ES:
-1. Objekt scannen – Scanne dein Objekt mit der Kamera und dem LiDAR-Sensor oder lege es manuell an (Quader, Zylinder, Kugel etc.).
-2. Transportweg erfassen – Laufe den geplanten Weg ab. Raumigo erstellt automatisch ein 3D-Modell des gesamten Pfades.
-3. Ergebnis prüfen – Raumigo berechnet, ob dein Objekt passt. Du siehst in 3D, wo es eng wird und wie du es ggf. drehen oder kippen musst.
+1. Objekt erfassen – Scanne es mit LiDAR oder lege es manuell an (Quader, Zylinder, Kugel usw.).
+2. Transportweg oder Kofferraum aufnehmen – Laufe den Weg ab oder scanne deinen Kofferraum (optional auch mit umgeklappten Rücksitzen).
+3. Ergebnis prüfen – Raumigo zeigt dir eine geometrische Einschätzung: „Passt wahrscheinlich" oder „Passt wahrscheinlich nicht", dazu kritische Stellen in 3D und mögliche Orientierungsvorschläge.
 
 FEATURES:
-• LiDAR 3D-Scan von Objekten und Transportwegen
+• LiDAR-3D-Scan von Objekten, Transportwegen und Kofferräumen
+• CarFit: mehrere Kofferraum-Konfigurationen pro Fahrzeug (Rücksitze normal / umgeklappt, optional auch Kofferraumklappe per Dichtung nachgezeichnet)
 • Manuelle Objekt-Erstellung (Quader, Zylinder, Kugel, Kegel, Prisma)
-• Automatische Kollisionsprüfung entlang des gesamten Transportwegs
-• Dreh-, Kipp- und Bewegungshinweise in 3D
-• Detaillierter Report mit kritischen Abschnitten
-• Mesh-Verfeinerung durch Hin- und Rücklauf
-• 3D-Vorschau aller Scans
-• Export und Teilen von Scan-Daten
-• Lokale Datenspeicherung – keine Cloud, kein Tracking
+• Kollisionsprüfung entlang des gesamten Transportwegs
+• Hinweise zu möglichen Dreh-, Kipp- und Orientierungsmöglichkeiten in 3D
+• Detaillierter HTML-Report mit kritischen Abschnitten
+• 3D-Vorschau aller Scans, Engstellen sichtbar markiert
+• Export und Teilen von Scan- und Berechnungsdaten
+• Alles lokal auf dem Gerät – keine Cloud, kein Tracking, keine Werbung
 • Deutsch, Englisch und Spanisch
 
 FÜR WEN?
-• Privatpersonen vor dem Umzug
-• Möbel-Käufer vor der Lieferung
-• Umzugsunternehmen zur Vorbereitung
-• Handwerker und Monteure
-• Alle, die schwere Gegenstände transportieren
+• Privatpersonen vor Umzug, Möbelkauf oder Transport
+• Möbel- und Online-Käufer vor der Lieferung
+• Umzugshelfer zur Vorbereitung
 
 TECHNISCHE VORAUSSETZUNGEN:
-Für den 3D-Scan wird ein iPhone mit LiDAR-Sensor benötigt (iPhone 12 Pro oder neuer). Die manuelle Objekt-Erstellung funktioniert auf allen unterstützten iPhones.
+Für den 3D-Scan wird ein iPhone mit LiDAR-Sensor empfohlen (iPhone 12 Pro oder neuer). Manuelle Objekt-Erstellung und Berechnung funktionieren auf allen unterstützten iPhones.
 
 DATENSCHUTZ:
-Alle Daten bleiben auf deinem Gerät. Raumigo verwendet keine Analyse-Tools, kein Tracking und keine Werbung.
+Alle Daten bleiben lokal auf deinem Gerät. Raumigo verwendet keine Analyse-Tools, kein Tracking und keine Werbenetzwerke.
 
-HINWEIS:
-Die Berechnungen sind technische Näherungswerte. Sie ersetzen keine professionelle Vermessung oder Prüfung vor Ort.
+WICHTIG – WAS RAUMIGO NICHT TUT:
+Raumigo liefert eine rein geometrische Einschätzung. Gewicht, Schwerpunkt, Tragfähigkeit von Böden oder Aufzügen, Griff­möglichkeiten, Material­verhalten, Personeneinsatz sowie Verletzungs- und Sachschaden­risiken werden nicht bewertet. Dreh-, Kipp- und Einladehinweise sind Orientierungs­vorschläge – keine Bewegungs­anleitung. Jeder tatsächliche Transport erfolgt auf eigene Gefahr; die endgültige Prüfung vor Ort liegt beim Nutzer.
 
 ### Keywords (max. 100 Zeichen)
-Umzug,LiDAR,3D-Scan,Transport,Tür,passt,Möbel,Schrank,Sofa,messen,Kollision,Maße,Treppe,Flur,Raum
+Umzug,LiDAR,3D-Scan,Transport,Kofferraum,Tür,passt,Möbel,Schrank,Sofa,CarFit,Auto,messen,Treppe
 
 ### Kategorie
 Utilities (Dienstprogramme)
@@ -69,52 +72,50 @@ Productivity (Produktivität)
 Raumigo
 
 ### Subtitle (max. 30 chars)
-Will it fit through the door?
+Will it likely fit?
 
 ### Promotional Text (max. 170 chars)
-Find out if your sofa, wardrobe or fridge fits through doors, hallways and staircases – before you carry it. 3D scan with LiDAR, calculation in seconds.
+Non-binding estimate: Could your sofa, wardrobe or box fit through doors, hallways, staircases or into your trunk? LiDAR scan, result in seconds.
 
 ### Description (max. 4000 chars)
-Raumigo uses your iPhone's LiDAR sensor to capture objects and transport paths in 3D – and calculates whether your item fits through doors, hallways, staircases and other tight spots.
+Raumigo is an assistive tool for the geometric pre-check of transports. The app uses your iPhone's LiDAR and sensors to capture objects, transport paths and car trunks in 3D – and gives you a non-binding estimate of whether your item might geometrically fit.
 
 WHY RAUMIGO?
-We've all been there: the new wardrobe won't fit through the door. The sofa gets stuck in the stairwell. Raumigo helps you avoid these situations – quickly, easily and right from your iPhone.
+The new wardrobe is sitting in front of the door – will it fit? The sofa should go in the trunk – or maybe not? Raumigo helps you assess these situations upfront. Fast, right on your iPhone, no measuring tape, no guessing.
 
 HOW IT WORKS:
-1. Scan your object – Use your camera and LiDAR sensor, or create it manually (box, cylinder, sphere, etc.).
-2. Capture the transport path – Walk the planned route. Raumigo automatically creates a 3D model of the entire path.
-3. Check the result – Raumigo calculates if your object fits. See in 3D where it gets tight and how to rotate or tilt it.
+1. Capture the object – Scan with LiDAR or create it manually (box, cylinder, sphere, etc.).
+2. Capture the transport path or trunk – Walk the route or scan your trunk (optionally with rear seats folded).
+3. Check the result – Raumigo shows a geometric estimate: "Likely fits" or "Likely does not fit", with critical spots in 3D and possible orientation suggestions.
 
 FEATURES:
-• LiDAR 3D scanning of objects and transport paths
+• LiDAR 3D scanning of objects, transport paths and trunks
+• CarFit: multiple trunk configurations per vehicle (seats up / folded, optionally trunk lid traced along the rubber seal)
 • Manual object creation (box, cylinder, sphere, cone, prism)
-• Automatic collision detection along the entire transport path
-• Rotation, tilt and movement suggestions in 3D
-• Detailed report with critical sections
-• Mesh refinement through back-and-forth scanning
-• 3D preview of all scans
-• Export and share scan data
-• Local data storage – no cloud, no tracking
+• Collision detection along the entire transport path
+• Hints about possible rotation, tilt and orientation options in 3D
+• Detailed HTML report with critical sections
+• 3D preview of all scans, narrow passages marked
+• Export and share scan and calculation data
+• Everything stays local on your device – no cloud, no tracking, no ads
 • German, English and Spanish
 
 WHO IS IT FOR?
-• Anyone planning a move
-• Furniture buyers before delivery
-• Moving companies for preparation
-• Craftspeople and installers
-• Anyone transporting heavy items
+• Anyone planning a move, furniture purchase or transport
+• Furniture and online buyers before delivery
+• Helpers preparing a move
 
 REQUIREMENTS:
-3D scanning requires an iPhone with LiDAR sensor (iPhone 12 Pro or later). Manual object creation works on all supported iPhones.
+For 3D scanning, an iPhone with a LiDAR sensor is recommended (iPhone 12 Pro or later). Manual object creation and calculation work on all supported iPhones.
 
 PRIVACY:
-All data stays on your device. Raumigo uses no analytics tools, no tracking and no advertising.
+All data stays local on your device. Raumigo uses no analytics, no tracking and no advertising networks.
 
-NOTE:
-Calculations are technical approximations. They do not replace professional measurement or on-site inspection.
+IMPORTANT – WHAT RAUMIGO DOES NOT DO:
+Raumigo provides a purely geometric estimate. Weight, centre of gravity, load capacity of floors or elevators, grip options, material behaviour, personnel deployment and risks of injury or property damage are not evaluated. Rotation, tilt and loading hints are orientation suggestions – not movement instructions. Any actual transport is done at your own risk; final on-site verification is your responsibility.
 
 ### Keywords (max. 100 chars)
-moving,LiDAR,3D,scan,transport,door,fit,furniture,measure,collision,sofa,wardrobe,stairs,hallway
+moving,LiDAR,3D,scan,transport,trunk,door,fit,furniture,measure,CarFit,car,sofa,stairs,hallway
 
 ### Category
 Utilities
@@ -130,52 +131,50 @@ Productivity
 Raumigo
 
 ### Subtitle (max. 30 chars)
-¿Cabe por la puerta?
+¿Probablemente cabe?
 
 ### Promotional Text (max. 170 chars)
-Descubre si tu sofá, armario o nevera cabe por puertas, pasillos y escaleras antes de cargarlo. Escaneo 3D con LiDAR, cálculo en segundos.
+Estimación no vinculante: ¿Podría caber tu sofá, armario o caja por puertas, pasillos, escaleras o en tu maletero? Escaneo LiDAR, resultado en segundos.
 
 ### Description (max. 4000 chars)
-Raumigo utiliza el sensor LiDAR de tu iPhone para capturar objetos y rutas de transporte en 3D, y calcula si tu objeto cabe por puertas, pasillos, escaleras y otros pasos estrechos.
+Raumigo es una herramienta asistencial para la comprobación previa geométrica de transportes. La app utiliza el LiDAR y los sensores de tu iPhone para capturar en 3D objetos, rutas de transporte y maleteros de coche, y te ofrece una estimación no vinculante de si tu objeto podría caber geométricamente.
 
 ¿POR QUÉ RAUMIGO?
-¿Quién no lo ha vivido? El nuevo armario no cabe por la puerta. El sofá se queda atascado en la escalera. Raumigo te ayuda a evitar estas situaciones – rápido, sencillo y directamente con tu iPhone.
+El nuevo armario está delante de la puerta, ¿cabrá? El sofá debería ir en el maletero, ¿o no? Raumigo te ayuda a estimar estas situaciones por anticipado. Rápido, directamente en tu iPhone, sin metro ni intuición.
 
 CÓMO FUNCIONA:
-1. Escanea tu objeto – Usa la cámara y el sensor LiDAR, o créalo manualmente (caja, cilindro, esfera, etc.).
-2. Captura la ruta de transporte – Recorre el camino previsto. Raumigo crea automáticamente un modelo 3D de toda la ruta.
-3. Consulta el resultado – Raumigo calcula si tu objeto cabe. Ve en 3D dónde es estrecho y cómo girarlo o inclinarlo.
+1. Captura el objeto – Escanéalo con LiDAR o créalo manualmente (caja, cilindro, esfera, etc.).
+2. Captura la ruta o el maletero – Recorre el camino o escanea tu maletero (opcionalmente también con los asientos abatidos).
+3. Consulta el resultado – Raumigo muestra una estimación geométrica: "Probablemente cabe" o "Probablemente no cabe", con puntos críticos en 3D y posibles sugerencias de orientación.
 
 CARACTERÍSTICAS:
-• Escaneo 3D con LiDAR de objetos y rutas de transporte
+• Escaneo 3D con LiDAR de objetos, rutas de transporte y maleteros
+• CarFit: varias configuraciones de maletero por vehículo (asientos normales / abatidos, opcionalmente portón trasero delimitado siguiendo la junta de goma)
 • Creación manual de objetos (caja, cilindro, esfera, cono, prisma)
-• Detección automática de colisiones a lo largo de toda la ruta
-• Sugerencias de rotación, inclinación y movimiento en 3D
-• Informe detallado con secciones críticas
-• Refinamiento de malla mediante escaneo de ida y vuelta
-• Vista previa 3D de todos los escaneos
-• Exportar y compartir datos de escaneo
-• Almacenamiento local – sin nube, sin seguimiento
+• Detección de colisiones a lo largo de toda la ruta
+• Indicaciones sobre posibles giros, inclinaciones y orientaciones en 3D
+• Informe HTML detallado con secciones críticas
+• Vista previa 3D de todos los escaneos, con pasos estrechos marcados
+• Exportar y compartir datos de escaneo y cálculo
+• Todo se queda localmente en tu dispositivo – sin nube, sin seguimiento, sin publicidad
 • Alemán, inglés y español
 
 ¿PARA QUIÉN?
-• Cualquier persona que planee una mudanza
-• Compradores de muebles antes de la entrega
-• Empresas de mudanzas para la preparación
-• Artesanos e instaladores
-• Cualquiera que transporte objetos pesados
+• Cualquier persona que planee una mudanza, compra de muebles o transporte
+• Compradores de muebles u online antes de la entrega
+• Ayudantes preparando una mudanza
 
 REQUISITOS:
-El escaneo 3D requiere un iPhone con sensor LiDAR (iPhone 12 Pro o posterior). La creación manual de objetos funciona en todos los iPhones compatibles.
+Para el escaneo 3D se recomienda un iPhone con sensor LiDAR (iPhone 12 Pro o posterior). La creación manual de objetos y el cálculo funcionan en todos los iPhones compatibles.
 
 PRIVACIDAD:
-Todos los datos permanecen en tu dispositivo. Raumigo no utiliza herramientas de análisis, seguimiento ni publicidad.
+Todos los datos permanecen localmente en tu dispositivo. Raumigo no utiliza herramientas de análisis, seguimiento ni publicidad.
 
-NOTA:
-Los cálculos son aproximaciones técnicas. No sustituyen una medición profesional ni una inspección en el lugar.
+IMPORTANTE – LO QUE RAUMIGO NO HACE:
+Raumigo proporciona una estimación puramente geométrica. No se evalúan el peso, el centro de gravedad, la capacidad de carga de suelos o ascensores, las posibilidades de agarre, el comportamiento del material, el uso de personal ni los riesgos de lesiones o daños materiales. Las indicaciones de giro, inclinación y carga son sugerencias de orientación, no instrucciones de movimiento. Cualquier transporte real se realiza bajo la propia responsabilidad; la verificación final in situ corresponde al usuario.
 
 ### Keywords (max. 100 chars)
-mudanza,LiDAR,3D,escaneo,transporte,puerta,cabe,muebles,medir,colisión,sofá,armario,escalera
+mudanza,LiDAR,3D,escaneo,transporte,maletero,puerta,cabe,muebles,medir,CarFit,coche,sofá,escalera
 
 ### Category
 Utilities (Utilidades)
