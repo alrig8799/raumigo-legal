@@ -24,7 +24,7 @@
     <div class="container">
         <a class="back" href="index.html">← Back</a>
         <h1>Privacy Policy</h1>
-        <p class="date">Last updated: May 2026</p>
+        <p class="date">Last updated: 11 May 2026</p>
 
         <h2>1. Controller</h2>
         <p>Dr.-Ing. Andreas Behrendt<br>
@@ -34,7 +34,7 @@
 
         <h2>2. General Information</h2>
         <p>The protection of personal data is important. This privacy policy informs you about what data is processed when using the app "Raumigo", for what purposes, and which rights you have as a data subject.</p>
-        <p>The app is currently designed so that data is processed locally on the device.</p>
+        <p>The app is designed so that spatial data (scans, vehicle profiles, checks, reports) is generally processed and stored locally on the device. An exception is the pseudonymized usage statistics via TelemetryDeck (see Section 8), which can be disabled at any time.</p>
 
         <h2>3. Scope of Processing</h2>
         <p>The following data may be processed:</p>
@@ -58,17 +58,32 @@
         </ul>
 
         <h2>5. Legal Basis</h2>
-        <p>Processing is based on Art. 6(1)(b) GDPR (provision of app functions) and Art. 6(1)(f) GDPR (secure, stable operation).</p>
+        <p>Processing is based on Art. 6(1)(b) GDPR (provision of app functions) and Art. 6(1)(f) GDPR (legitimate interest in secure, stable operation as well as in the technical improvement of the app).</p>
 
         <h2>6. Camera, LiDAR and Sensor Access</h2>
-        <p>The app uses camera, LiDAR and other device sensors exclusively for capturing spatial information (objects, environments, transport paths, trunks).</p>
-        <p>No data is transmitted to servers in the current version of the app.</p>
+        <p>The app uses camera, LiDAR and other device sensors exclusively for capturing spatial information (objects, environments, transport paths, trunks). The spatial data thus captured is stored locally on the device and, in the current version of the app, is not transmitted to servers. The only exception is the pseudonymized usage statistics via TelemetryDeck described in Section 8.</p>
 
         <h2>7. Recipients of Personal Data</h2>
-        <p>No personal data is transferred to third parties in the current version of the app.</p>
+        <p>Content data is not transferred to third parties. As part of the pseudonymized usage statistics, technical event data is transmitted to the processor TelemetryDeck (see Section 8).</p>
 
-        <h2>8. No Analytics, No Tracking, No Advertising</h2>
-        <p>The app does not use any analytics tools, personal tracking or advertising networks in its current version.</p>
+        <h2>8. Usage Statistics with TelemetryDeck</h2>
+        <p>We use the European analytics service TelemetryDeck in Raumigo to better understand the use of the app, identify technical issues and develop features in a more user-friendly way. The provider is TelemetryDeck GmbH, Von-der-Tann-Str. 54, 86159 Augsburg, Germany.</p>
+        <p>No names, email addresses, phone numbers, scan contents, photos, GPS location data or advertising IDs (IDFA) are transmitted to TelemetryDeck. The analysis is based on pseudonymized event data.</p>
+        <p>Automatically transmitted technical information may include in particular:</p>
+        <ul>
+            <li>app version and app build,</li>
+            <li>iOS version,</li>
+            <li>device model identifier,</li>
+            <li>app language,</li>
+            <li>random session ID,</li>
+            <li>pseudonymous device-bound identifier (SHA-256 hash of the iOS VendorID),</li>
+            <li>timestamps and type of certain app events.</li>
+        </ul>
+        <p>The pseudonymous device-bound identifier is derived from a device-bound iOS identifier and hashed. It is used solely to enable statistical evaluation of usage processes without identifying you as a person. Apple's advertising ID (IDFA), cross-device advertising tracking and profiling for advertising purposes are not used.</p>
+        <p>Evaluated events include in particular app launches, onboarding steps, tab switches, scan and calculation processes, creation and deletion of comparison pairs, use of the 3D viewer, opened help pages, device capability information such as LiDAR availability, and denied camera permissions. A complete overview is provided in the appendix at the end of this policy.</p>
+        <p>Processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in making the app technically stable, understandable and user-friendly, in detecting errors and in aligning further development of the app with actual usage patterns.</p>
+        <p>Because the pseudonymous device-related identifier is derived from an iOS identifier stored on the device, the German TDDDG (Telecommunications Digital Services Data Protection Act) also applies. For this purpose we additionally rely on § 25 (2) no. 2 TDDDG (information strictly necessary for providing and stably improving the digital service explicitly requested by the user) and – where statistics are active beyond that – on consent given within the app pursuant to § 25 (1) TDDDG.</p>
+        <p>The default in the app is "on". On first launch, the onboarding step "Legal" shows a visible toggle ("Pseudonymous usage statistics to improve the app") that displays this default. You can disable the transmission of usage statistics there and at any time later under Settings → "Usage Statistics". The setting is stored persistently and can be changed at any time; a granted consent can be revoked the same way at any time with effect for the future.</p>
 
         <h2>9. Storage and Deletion</h2>
         <p>Data generated in the app (scans, vehicle profiles, trunk configurations, check history, reports) is stored locally on your device. Data remains stored until you delete it within the app or uninstall the app. When a vehicle profile or object scan is deleted, the associated check records are removed automatically as well.</p>
@@ -101,6 +116,21 @@
 
         <h2>14. Changes</h2>
         <p>The controller reserves the right to adjust this privacy policy as needed. The current version is made available in the app.</p>
+
+        <h2>Appendix: Overview of Tracked Usage Events</h2>
+        <p>The following events may be collected as part of the pseudonymized usage statistics:</p>
+        <p><strong>1. App lifecycle and device information:</strong> app_opened, app_backgrounded, device_capability.</p>
+        <p><strong>2. Legal and onboarding:</strong> agb_accepted, onboarding_step_viewed, onboarding_completed, onboarding_skipped.</p>
+        <p><strong>3. Permissions:</strong> permission_denied.</p>
+        <p><strong>4. Navigation and help:</strong> tab_opened, help_opened.</p>
+        <p><strong>5. Comparison pairs:</strong> pair_created, pair_deleted.</p>
+        <p><strong>6. Scans:</strong> scan_started, scan_failed, scan_object_completed, scan_transport_completed, scan_carfit_completed, object_manual_created, carfit_trunk_manual_created, carfit_trunk_measure_used, carfit_seal_method_chosen, carfit_seal_points_completed.</p>
+        <p><strong>7. Calculations:</strong> calc_transport_started, calc_transport_completed, calc_transport_failed, calc_carfit_started, calc_carfit_completed, calc_carfit_failed.</p>
+        <p><strong>8. Size check:</strong> sizecheck_transport_started, sizecheck_transport_completed, sizecheck_transport_opened_3d, sizecheck_carfit_started, sizecheck_carfit_completed, sizecheck_carfit_opened_3d.</p>
+        <p><strong>9. 3D viewer usage:</strong> result_viewer_3d_rotated, result_viewer_scrubber_used, screenshot_taken_from_3d.</p>
+        <p><strong>10. Beta notices:</strong> collision_beta_dialog_shown, collision_beta_dialog_accepted, collision_beta_dialog_cancelled.</p>
+        <p><strong>11. Bundles, profiles, recompute and surveys:</strong> bundle_exported, bundle_imported, bundle_import_failed, car_profile_created, recompute_triggered, survey_shown, survey_answered, survey_dismissed.</p>
+        <p>The events do not contain names, email addresses, GPS data, photos, scan contents or other directly entered personal content. Individual events may contain additional technical information, e.g. app version, OS version, device model identifier, language, session ID, scan type, calculation status, error type or counter values such as mesh size.</p>
     </div>
 </body>
 </html>
