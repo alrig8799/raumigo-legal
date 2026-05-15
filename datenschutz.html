@@ -24,7 +24,7 @@
     <div class="container">
         <a class="back" href="index.html">← Zurück</a>
         <h1>Datenschutzerklärung</h1>
-        <p class="date">Stand: 11. Mai 2026</p>
+        <p class="date">Stand: 15. Mai 2026</p>
 
         <h2>1. Verantwortlicher</h2>
         <p>Dr.-Ing. Andreas Behrendt<br>
@@ -77,13 +77,13 @@
             <li>Geräte-Modellkennung,</li>
             <li>App-Sprache,</li>
             <li>zufällige Sitzungs-ID,</li>
-            <li>pseudonyme gerätebezogene Kennung (SHA-256-Hash der iOS-VendorID),</li>
+            <li>pseudonyme installationsbezogene Kennung (SHA-256-Hash einer beim ersten Start in der App lokal generierten Zufalls-UUID, gespeichert in der iOS-Keychain Ihres Geräts),</li>
             <li>Zeitpunkte und Art bestimmter App-Ereignisse.</li>
         </ul>
-        <p>Die pseudonyme gerätebezogene Kennung wird aus einer gerätebezogenen iOS-Kennung abgeleitet und gehasht. Sie dient ausschließlich dazu, Nutzungsvorgänge statistisch auswerten zu können, ohne Sie als Person zu identifizieren. Eine Nutzung der Apple-Werbe-ID (IDFA), geräteübergreifendes Werbe-Tracking oder Profilbildung zu Werbezwecken findet nicht statt.</p>
+        <p>Die pseudonyme installationsbezogene Kennung wird aus einer beim ersten Start der App lokal erzeugten Zufalls-UUID abgeleitet und vor der Übertragung mit SHA-256 gehasht. Sie ist ausschließlich pro App-Installation eindeutig und kann nicht mit Ihrem Apple-Konto, anderen Apps oder anderen Geräten verknüpft werden. Sie dient ausschließlich dazu, Nutzungsvorgänge statistisch auswerten zu können, ohne Sie als Person zu identifizieren. Eine Nutzung der Apple-Werbe-ID (IDFA), geräteübergreifendes Werbe-Tracking oder Profilbildung zu Werbezwecken findet nicht statt.</p>
         <p>Zu den ausgewerteten Ereignissen gehören insbesondere App-Starts, Onboarding-Schritte, Tab-Wechsel, Scan- und Berechnungsprozesse, Erstellung und Löschung von Vergleichspaaren, Nutzung des 3D-Viewers, geöffnete Hilfeseiten, Geräte-Capability-Informationen wie LiDAR-Verfügbarkeit sowie verweigerte Kamera-Berechtigungen. Eine vollständige Übersicht enthält der Anhang am Ende dieser Erklärung.</p>
         <p>Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO), die App technisch stabil, verständlich und nutzerfreundlich zu gestalten, Fehler zu erkennen und die Weiterentwicklung der App an tatsächlichen Nutzungsmustern auszurichten.</p>
-        <p>Da die pseudonyme gerätebezogene Kennung aus einer auf dem Endgerät vorgehaltenen iOS-Kennung abgeleitet wird, kommen auch die Vorschriften des TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz) zur Anwendung. Wir stützen uns hierfür ergänzend auf § 25 Abs. 2 Nr. 2 TDDDG (für die Bereitstellung und stabile Weiterentwicklung des vom Nutzer ausdrücklich gewünschten Telemediendienstes unbedingt erforderliche Informationen) sowie – soweit die Statistik darüber hinaus aktiv ist – auf eine in der App erteilte Einwilligung im Sinne von § 25 Abs. 1 TDDDG.</p>
+        <p>Da die pseudonyme installationsbezogene Kennung lokal in der iOS-Keychain Ihres Endgeräts gespeichert wird, kommen auch die Vorschriften des TDDDG (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz) zur Anwendung. Wir stützen uns hierfür ergänzend auf § 25 Abs. 2 Nr. 2 TDDDG (für die Bereitstellung und stabile Weiterentwicklung des vom Nutzer ausdrücklich gewünschten Telemediendienstes unbedingt erforderliche Informationen) sowie – soweit die Statistik darüber hinaus aktiv ist – auf eine in der App erteilte Einwilligung im Sinne von § 25 Abs. 1 TDDDG.</p>
         <p>Die Voreinstellung in der App ist „aktiv". Beim ersten Start sehen Sie im Onboarding-Schritt „Rechtliches" einen sichtbaren Schalter („Pseudonymisierte Nutzungsstatistik zur Verbesserung der App"), der diese Voreinstellung anzeigt. Sie können die Übermittlung der Nutzungsstatistik bereits dort und später jederzeit unter Einstellungen → „Nutzungsstatistik" deaktivieren. Die Einstellung wird dauerhaft gespeichert und kann jederzeit geändert werden; eine erteilte Einwilligung können Sie auf demselben Weg jederzeit mit Wirkung für die Zukunft widerrufen.</p>
 
         <h2>9. Speicherung und Löschung</h2>
@@ -119,7 +119,7 @@
         <p>Der Verantwortliche behält sich vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die jeweils aktuelle Fassung wird in der App bereitgehalten.</p>
 
         <h2>Anhang: Übersicht der erfassten Nutzungsereignisse</h2>
-        <p>Im Rahmen der pseudonymisierten Nutzungsstatistik können die folgenden Ereignisse erfasst werden:</p>
+        <p>Im Rahmen der pseudonymisierten Nutzungsstatistik können die folgenden Ereignisse erfasst werden. Jedes einzelne Ereignis wird automatisch um die unter Abschnitt 8 genannten Standard-Angaben angereichert (App-Version und -Build, iOS-Version, Geräte-Modellkennung, App-Sprache, zufällige Sitzungs-ID, pseudonyme installationsbezogene Kennung sowie ein Hinweis darauf, ob das Gerät über LiDAR verfügt). Die folgenden Kategorien beschreiben jeweils, welche Art von Ereignis ausgelöst wird:</p>
         <p><strong>1. App-Lebenszyklus und Geräteinformationen:</strong> app_opened, app_backgrounded, device_capability.</p>
         <p><strong>2. Rechtliches und Onboarding:</strong> agb_accepted, onboarding_step_viewed, onboarding_completed, onboarding_skipped.</p>
         <p><strong>3. Berechtigungen:</strong> permission_denied.</p>
@@ -131,7 +131,7 @@
         <p><strong>9. 3D-Viewer-Nutzung:</strong> result_viewer_3d_rotated, result_viewer_scrubber_used, screenshot_taken_from_3d.</p>
         <p><strong>10. Beta-Hinweise:</strong> collision_beta_dialog_shown, collision_beta_dialog_accepted, collision_beta_dialog_cancelled.</p>
         <p><strong>11. Pakete, Profile, Neuberechnung und Umfragen:</strong> bundle_exported, bundle_imported, bundle_import_failed, car_profile_created, recompute_triggered, survey_shown, survey_answered, survey_dismissed.</p>
-        <p>Die Ereignisse enthalten keine Namen, E-Mail-Adressen, GPS-Daten, Fotos, Scan-Inhalte oder sonstige direkt eingegebene personenbezogene Inhalte. Einzelne Ereignisse können technische Zusatzinformationen enthalten, z. B. App-Version, Betriebssystemversion, Geräte-Modellkennung, Sprache, Sitzungs-ID, Scan-Art, Berechnungsstatus, Fehlertyp oder Zählerwerte wie Mesh-Größe.</p>
+        <p>Die Ereignisse enthalten keine Namen, E-Mail-Adressen, GPS-Daten, Fotos, Scan-Inhalte, nutzerseitig vergebene Bezeichnungen, Notizen oder sonstige direkt eingegebene personenbezogene Inhalte. Einzelne Ereignisse können je nach Kategorie zusätzliche technische Angaben enthalten, insbesondere: Scan-Art und Scan-Engine, Berechnungs- und Größencheck-Status, Dauerangaben in Sekunden, kategorische Bezeichnungen (z. B. Sitz-Konfiguration, Tab-Name, Auswahl-Antwort, Kontext-Bezeichner wie „sizecheck_transport“), Zählerwerte wie Vertex-/Dreieck-Anzahl oder Stationsanzahl entlang eines Transportpfades, sowie aus manuellen Eingaben abgeleitete Maßangaben in Zentimetern (Länge, Breite, Höhe, Umfang). Fehlerbeschreibungen werden vor dem Versand auf maximal 120 Zeichen gekürzt.</p><p>Im aktuellen App-Build sind die im Anhang aufgeführten Ereignisse <em>scan_failed</em>, <em>screenshot_taken_from_3d</em> und <em>app_backgrounded</em> zwar in der App vorgesehen, werden derzeit aber nicht aktiv übermittelt. Sie sind hier vollständigkeitshalber gelistet, weil sie in einer kommenden Version aktiviert werden können, ohne dass dadurch der Umfang der Verarbeitung über die hier beschriebenen Grenzen hinausgeht.</p>
     </div>
 </body>
 </html>

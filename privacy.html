@@ -24,7 +24,7 @@
     <div class="container">
         <a class="back" href="index.html">← Back</a>
         <h1>Privacy Policy</h1>
-        <p class="date">Last updated: 11 May 2026</p>
+        <p class="date">Last updated: 15 May 2026</p>
 
         <h2>1. Controller</h2>
         <p>Dr.-Ing. Andreas Behrendt<br>
@@ -76,13 +76,13 @@
             <li>device model identifier,</li>
             <li>app language,</li>
             <li>random session ID,</li>
-            <li>pseudonymous device-bound identifier (SHA-256 hash of the iOS VendorID),</li>
+            <li>pseudonymous installation-bound identifier (SHA-256 hash of a random UUID generated locally in the app on first launch and stored in the iOS Keychain on your device),</li>
             <li>timestamps and type of certain app events.</li>
         </ul>
-        <p>The pseudonymous device-bound identifier is derived from a device-bound iOS identifier and hashed. It is used solely to enable statistical evaluation of usage processes without identifying you as a person. Apple's advertising ID (IDFA), cross-device advertising tracking and profiling for advertising purposes are not used.</p>
+        <p>The pseudonymous installation-bound identifier is derived from a random UUID generated locally in the app on first launch and is hashed with SHA-256 before transmission. It is unique only per app installation and cannot be linked to your Apple account, other apps or other devices. It is used solely to enable statistical evaluation of usage processes without identifying you as a person. Apple's advertising ID (IDFA), cross-device advertising tracking and profiling for advertising purposes are not used.</p>
         <p>Evaluated events include in particular app launches, onboarding steps, tab switches, scan and calculation processes, creation and deletion of comparison pairs, use of the 3D viewer, opened help pages, device capability information such as LiDAR availability, and denied camera permissions. A complete overview is provided in the appendix at the end of this policy.</p>
         <p>Processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in making the app technically stable, understandable and user-friendly, in detecting errors and in aligning further development of the app with actual usage patterns.</p>
-        <p>Because the pseudonymous device-related identifier is derived from an iOS identifier stored on the device, the German TDDDG (Telecommunications Digital Services Data Protection Act) also applies. For this purpose we additionally rely on § 25 (2) no. 2 TDDDG (information strictly necessary for providing and stably improving the digital service explicitly requested by the user) and – where statistics are active beyond that – on consent given within the app pursuant to § 25 (1) TDDDG.</p>
+        <p>Because the pseudonymous installation-bound identifier is stored locally in the iOS Keychain on your device, the German TDDDG (Telecommunications Digital Services Data Protection Act) also applies. For this purpose we additionally rely on § 25 (2) no. 2 TDDDG (information strictly necessary for providing and stably improving the digital service explicitly requested by the user) and – where statistics are active beyond that – on consent given within the app pursuant to § 25 (1) TDDDG.</p>
         <p>The default in the app is "on". On first launch, the onboarding step "Legal" shows a visible toggle ("Pseudonymous usage statistics to improve the app") that displays this default. You can disable the transmission of usage statistics there and at any time later under Settings → "Usage Statistics". The setting is stored persistently and can be changed at any time; a granted consent can be revoked the same way at any time with effect for the future.</p>
 
         <h2>9. Storage and Deletion</h2>
@@ -118,7 +118,7 @@
         <p>The controller reserves the right to adjust this privacy policy as needed. The current version is made available in the app.</p>
 
         <h2>Appendix: Overview of Tracked Usage Events</h2>
-        <p>The following events may be collected as part of the pseudonymized usage statistics:</p>
+        <p>The following events may be collected as part of the pseudonymized usage statistics. Each individual event is automatically enriched with the standard fields described in Section 8 (app version and build, iOS version, device model identifier, app language, random session ID, pseudonymous installation-bound identifier and a flag indicating whether the device has LiDAR). The categories below describe what kind of event is triggered in each case:</p>
         <p><strong>1. App lifecycle and device information:</strong> app_opened, app_backgrounded, device_capability.</p>
         <p><strong>2. Legal and onboarding:</strong> agb_accepted, onboarding_step_viewed, onboarding_completed, onboarding_skipped.</p>
         <p><strong>3. Permissions:</strong> permission_denied.</p>
@@ -130,7 +130,7 @@
         <p><strong>9. 3D viewer usage:</strong> result_viewer_3d_rotated, result_viewer_scrubber_used, screenshot_taken_from_3d.</p>
         <p><strong>10. Beta notices:</strong> collision_beta_dialog_shown, collision_beta_dialog_accepted, collision_beta_dialog_cancelled.</p>
         <p><strong>11. Bundles, profiles, recompute and surveys:</strong> bundle_exported, bundle_imported, bundle_import_failed, car_profile_created, recompute_triggered, survey_shown, survey_answered, survey_dismissed.</p>
-        <p>The events do not contain names, email addresses, GPS data, photos, scan contents or other directly entered personal content. Individual events may contain additional technical information, e.g. app version, OS version, device model identifier, language, session ID, scan type, calculation status, error type or counter values such as mesh size.</p>
+        <p>The events do not contain names, email addresses, GPS data, photos, scan contents, user-provided labels, notes or other directly entered personal content. Depending on the category, individual events may contain additional technical information, in particular: scan type and scan engine, calculation and size-check status, durations in seconds, categorical labels (e.g. seat configuration, tab name, selected answer, context identifier such as "sizecheck_transport"), counter values such as vertex/triangle count or number of stations along a transport path, as well as measurements in centimeters derived from manual input (length, width, height, perimeter). Error descriptions are truncated to a maximum of 120 characters before transmission.</p><p>In the current app build, the appendix entries <em>scan_failed</em>, <em>screenshot_taken_from_3d</em> and <em>app_backgrounded</em> are reserved in the app but are not actively transmitted at this time. They are listed for completeness, because they may be activated in a future version without expanding the processing beyond the limits described here.</p>
     </div>
 </body>
 </html>
