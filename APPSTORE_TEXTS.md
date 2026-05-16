@@ -25,7 +25,7 @@ Raumigo zeigt dir vor dem Kaufen, Tragen oder Transportieren, ob es eng wird.
 Mit dem LiDAR-Sensor deines iPhones erfasst du Objekte, Kofferräume und Transportwege in 3D – und vergleichst sie im gleichen Größenverhältnis direkt auf dem Handy. Einmal gescannt, hast du dein Auto und den Weg in dein Zuhause immer in der Hosentasche dabei.
 
 EINMAL SCANNEN. IMMER DABEIHABEN.
-Auf dem Flohmarkt, in der IKEA-Resterampe oder bei Kleinanzeigen ein interessantes Objekt entdeckt? Öffne Raumigo und prüfe direkt, ob es ins Auto passt und den Weg in dein Zuhause findet – auch wenn Objekt, Auto und Zuhause an unterschiedlichen Orten sind.
+Auf dem Flohmarkt, im Möbelhaus, im Baumarkt oder bei Online-Kleinanzeigen ein interessantes Objekt entdeckt? Öffne Raumigo und prüfe direkt, ob es ins Auto passt und den Weg in dein Zuhause findet – auch wenn Objekt, Auto und Zuhause an unterschiedlichen Orten sind.
 
 DIE ZWEI MODI VON RAUMIGO
 
@@ -54,7 +54,7 @@ FUNKTIONEN
 
 FÜR WEN?
 • Privatpersonen vor Umzug, Möbelkauf oder Transport
-• Spontankäufe bei Kleinanzeigen, Flohmarkt, Möbelhaus oder Baumarkt
+• Spontankäufe auf Online-Kleinanzeigen-Plattformen, Flohmärkten, im Möbelhaus oder Baumarkt
 • Möbel- und Online-Käufer vor der Lieferung
 • Umzugshelfer zur Vorbereitung
 
@@ -62,13 +62,13 @@ TECHNISCHE VORAUSSETZUNGEN
 Für den 3D-Scan wird ein iPhone mit LiDAR-Sensor empfohlen (iPhone 12 Pro oder neuer). Manuelle Objekt-Erstellung und Vergleich funktionieren auf allen unterstützten iPhones.
 
 DATENSCHUTZ
-Räumliche Daten (Scans, Fahrzeugprofile, Kofferraum-Konfigurationen, Vergleiche, Reports) werden lokal auf deinem Gerät gespeichert. Zur Verbesserung der App können pseudonymisierte Nutzungsstatistiken über den europäischen Analyse-Dienst TelemetryDeck erfasst werden – ohne Namen, E-Mail, Standortdaten, Fotos, Scan-Inhalte oder Werbe-ID. Du kannst die Übermittlung jederzeit im Onboarding oder in den Einstellungen deaktivieren. Details in der Datenschutzerklärung.
+Räumliche Daten (Scans, Fahrzeugprofile, Kofferraum-Konfigurationen, Vergleiche, Reports) werden lokal auf deinem Gerät gespeichert. Zur Verbesserung der App können pseudonymisierte Nutzungsstatistiken über den europäischen Analyse-Dienst TelemetryDeck erfasst werden – ohne Namen, E-Mail, Standortdaten, Fotos, Scan-Inhalte oder Werbe-ID. Die Statistik ist standardmäßig aus; du kannst sie im Onboarding oder jederzeit in den Einstellungen aktivieren und wieder deaktivieren. Details in der Datenschutzerklärung.
 
 WICHTIG – WAS RAUMIGO NICHT TUT
 Raumigo liefert eine räumliche Orientierungshilfe auf Basis der erfassten Scan- und Eingabedaten. Genauigkeit hängt von Gerät, Umgebung und Scanqualität ab. Gewicht, Schwerpunkt, Tragfähigkeit von Böden oder Aufzügen, Griffmöglichkeiten, Materialverhalten, Personeneinsatz sowie Verletzungs- und Sachschadenrisiken werden nicht bewertet. Dreh-, Kipp- und Orientierungshinweise sind Orientierungsvorschläge – keine Bewegungs- oder Verladeanleitung. Jeder tatsächliche Transport erfolgt eigenverantwortlich; die endgültige Prüfung vor Ort liegt beim Nutzer.
 
 ### Keywords (max. 100 Zeichen)
-Umzug,LiDAR,3D-Scan,Transport,Kofferraum,Möbel,Sofa,CarFit,Auto,messen,Treppe,Kleinanzeigen
+Umzug,LiDAR,3D-Scan,Transport,Kofferraum,Möbel,Sofa,CarFit,Auto,messen,Treppe,Anzeigen
 
 ### Kategorie
 Utilities (Dienstprogramme)
@@ -95,7 +95,7 @@ Raumigo shows you – before you buy, carry or transport – whether it might ge
 Use your iPhone's LiDAR to capture objects, car trunks and transport paths in 3D, and compare them at the same scale right on your phone. Once scanned, your car and the way into your home are always in your pocket.
 
 SCAN ONCE. CARRY IT EVERYWHERE.
-Spotted something interesting at a flea market, in the IKEA bargain section or on a classifieds site? Open Raumigo and check whether it fits in your car and finds its way into your home – even when object, car and home are in different places.
+Spotted something interesting at a flea market, in a furniture store, at a DIY shop or on online classifieds? Open Raumigo and check whether it fits in your car and finds its way into your home – even when object, car and home are in different places.
 
 THE TWO MODES OF RAUMIGO
 
@@ -132,7 +132,7 @@ REQUIREMENTS
 For 3D scanning, an iPhone with a LiDAR sensor is recommended (iPhone 12 Pro or later). Manual object creation and comparison work on all supported iPhones.
 
 PRIVACY
-Spatial data (scans, vehicle profiles, trunk configurations, comparisons, reports) is stored locally on your device. To improve the app, pseudonymized usage statistics may be collected via the European analytics service TelemetryDeck – without names, email, location data, photos, scan contents or advertising ID. You can disable the transmission at any time during onboarding or in settings. Details in the privacy policy.
+Spatial data (scans, vehicle profiles, trunk configurations, comparisons, reports) is stored locally on your device. To improve the app, pseudonymized usage statistics may be collected via the European analytics service TelemetryDeck – without names, email, location data, photos, scan contents or advertising ID. Usage statistics are off by default; you can enable or disable them at any time during onboarding or in settings. Details in the privacy policy.
 
 IMPORTANT – WHAT RAUMIGO DOES NOT DO
 Raumigo provides a spatial orientation aid based on captured scan and input data. Accuracy depends on device, environment and scan quality. Weight, centre of gravity, load capacity of floors or elevators, grip options, material behaviour, personnel deployment and risks of injury or property damage are not evaluated. Rotation, tilt and orientation hints are orientation suggestions – not movement or loading instructions. Any actual transport is done at your own responsibility; final on-site verification is yours.
@@ -165,7 +165,7 @@ Raumigo te muestra antes de comprar, cargar o transportar si puede quedar justo.
 Con el LiDAR de tu iPhone capturas en 3D objetos, maleteros y rutas de transporte – y los comparas en la misma relación de tamaño directamente en el móvil. Una vez escaneado, tienes tu coche y el camino hasta casa siempre en el bolsillo.
 
 ESCANEA UNA VEZ. LLÉVALO SIEMPRE CONTIGO.
-¿Has visto algo interesante en un mercadillo, en la sección de ofertas de IKEA o en clasificados? Abre Raumigo y comprueba directamente si cabe en el coche y encuentra el camino hasta tu casa – incluso si el objeto, el coche y la casa están en lugares distintos.
+¿Has visto algo interesante en un mercadillo, en una tienda de muebles, en una ferretería o en clasificados online? Abre Raumigo y comprueba directamente si cabe en el coche y encuentra el camino hasta tu casa – incluso si el objeto, el coche y la casa están en lugares distintos.
 
 LOS DOS MODOS DE RAUMIGO
 
@@ -202,7 +202,7 @@ REQUISITOS
 Para el escaneo 3D se recomienda un iPhone con sensor LiDAR (iPhone 12 Pro o posterior). La creación manual de objetos y la comparación funcionan en todos los iPhones compatibles.
 
 PRIVACIDAD
-Los datos espaciales (escaneos, perfiles de vehículo, configuraciones de maletero, comparaciones, informes) se almacenan localmente en tu dispositivo. Para mejorar la app pueden recogerse estadísticas de uso seudonimizadas a través del servicio europeo de análisis TelemetryDeck – sin nombres, correo electrónico, datos de ubicación, fotos, contenido de escaneos ni ID publicitaria. Puedes desactivar la transmisión en cualquier momento durante el onboarding o en los ajustes. Más información en la política de privacidad.
+Los datos espaciales (escaneos, perfiles de vehículo, configuraciones de maletero, comparaciones, informes) se almacenan localmente en tu dispositivo. Para mejorar la app pueden recogerse estadísticas de uso seudonimizadas a través del servicio europeo de análisis TelemetryDeck – sin nombres, correo electrónico, datos de ubicación, fotos, contenido de escaneos ni ID publicitaria. Las estadísticas están desactivadas por defecto; puedes activarlas o desactivarlas en cualquier momento durante el onboarding o en los ajustes. Más información en la política de privacidad.
 
 IMPORTANTE – LO QUE RAUMIGO NO HACE
 Raumigo proporciona una orientación espacial basada en los datos de escaneo y entrada. La precisión depende del dispositivo, el entorno y la calidad del escaneo. No se evalúan el peso, el centro de gravedad, la capacidad de carga de suelos o ascensores, las posibilidades de agarre, el comportamiento del material, el uso de personal ni los riesgos de lesiones o daños materiales. Las indicaciones de giro, inclinación y orientación son sugerencias de orientación – no instrucciones de movimiento ni de carga. Cualquier transporte real se realiza bajo tu propia responsabilidad; la verificación final in situ corresponde al usuario.
